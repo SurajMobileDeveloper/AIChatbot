@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6300142D2EFFF2B700F9D467 /* TypingDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300142C2EFFF2B700F9D467 /* TypingDotsView.swift */; };
 		6300142F2EFFF2D300F9D467 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6300142E2EFFF2D300F9D467 /* ChatViewModel.swift */; };
+		630014342EFFFDBC00F9D467 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B9F3FE2EFEC20800E2FD22 /* GenerativeAI-Info.plist */; };
 		63B9F3D52EFEC07C00E2FD22 /* AIChatbotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F3D42EFEC07C00E2FD22 /* AIChatbotApp.swift */; };
 		63B9F3D72EFEC07C00E2FD22 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F3D62EFEC07C00E2FD22 /* ChatView.swift */; };
 		63B9F3D92EFEC07E00E2FD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B9F3D82EFEC07E00E2FD22 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		63B9F3E62EFEC07F00E2FD22 /* AIChatbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F3E52EFEC07F00E2FD22 /* AIChatbotTests.swift */; };
 		63B9F3F02EFEC07F00E2FD22 /* AIChatbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F3EF2EFEC07F00E2FD22 /* AIChatbotUITests.swift */; };
 		63B9F3F22EFEC07F00E2FD22 /* AIChatbotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F3F12EFEC07F00E2FD22 /* AIChatbotUITestsLaunchTests.swift */; };
-		63B9F3FF2EFEC20800E2FD22 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B9F3FE2EFEC20800E2FD22 /* GenerativeAI-Info.plist */; };
 		63B9F4012EFEC6B600E2FD22 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F4002EFEC6B500E2FD22 /* Message.swift */; };
 		63B9F4032EFEC6FB00E2FD22 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9F4022EFEC6FB00E2FD22 /* MessageBubble.swift */; };
 		63B9F4072EFF011600E2FD22 /* bot_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B9F4062EFF011600E2FD22 /* bot_avatar.png */; };
@@ -255,8 +255,8 @@
 			files = (
 				63B9F4072EFF011600E2FD22 /* bot_avatar.png in Resources */,
 				63B9F3DC2EFEC07E00E2FD22 /* Preview Assets.xcassets in Resources */,
+				630014342EFFFDBC00F9D467 /* GenerativeAI-Info.plist in Resources */,
 				63B9F3D92EFEC07E00E2FD22 /* Assets.xcassets in Resources */,
-				63B9F3FF2EFEC20800E2FD22 /* GenerativeAI-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
